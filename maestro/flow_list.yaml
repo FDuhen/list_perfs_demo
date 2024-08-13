@@ -1,0 +1,30 @@
+appId: com.xerib.list_perfs_demo
+---
+- launchApp:
+      clearState: true
+- assertVisible: "List View"
+- tapOn: "List View"
+- scrollUntilVisible:
+    element: "footer"
+    direction: DOWN
+    speed: 90
+- scrollUntilVisible:
+    element: "header"
+    direction: UP
+    speed: 90
+- scrollUntilVisible:
+    element: "footer"
+    direction: DOWN
+    speed: 90
+- scrollUntilVisible:
+    element: "header"
+    direction: UP
+    speed: 90
+- scrollUntilVisible:
+    element: "footer"
+    direction: DOWN
+    speed: 90
+- scrollUntilVisible:
+    element: "header"
+    direction: UP
+    speed: 90
